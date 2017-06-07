@@ -10,7 +10,6 @@
 
 	<jpa:repositories base-package="com.parangluv.keybae.*.repository"></jpa:repositories>
 
-
 	<tx:annotation-driven />
 
 	<context:component-scan base-package="com.parangluv.keybae.*.service, com.parangluv.keybae.*.repository" />
@@ -26,8 +25,7 @@
 			<property name="dataSource" ref="dataSource" />
 		</bean>
 
-		<bean
-			class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+		<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
 
 		<bean id="entityManagerFactory"
 			class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
@@ -53,6 +51,6 @@
 		<bean class="java.lang.String" id="uploadPath">
 			<constructor-arg value="C:/photo/upload" />
 		</bean>
-	
 		
+
 </beans>
