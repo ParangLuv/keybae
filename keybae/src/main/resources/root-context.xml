@@ -52,5 +52,10 @@
 			<constructor-arg value="C:/photo/upload" />
 		</bean>
 		
+		<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+			<property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView"/>
+			<property name="order" value="1"/>
+		</bean>
+		
 
 </beans>
