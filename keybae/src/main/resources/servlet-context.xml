@@ -10,10 +10,13 @@
 		http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<mvc:annotation-driven />
-
+	
+	<mvc:resources mapping="/resources/**" location="/resources/"/>	
+		
 	<context:component-scan base-package="com.parangluv.keybae.*.controller" />
-
-	<bean id="tilesViewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver"/>
+	<bean id="tilesViewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
+		
+	</bean>
 	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
 		<property name="definitions">
 			<list>
@@ -22,7 +25,6 @@
 		</property>
 	</bean>
 	
-	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="order" value="2" />
 		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
@@ -30,7 +32,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
-
+	
 
 	<bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
 		<property value="10485760" name="maxUploadSize" />
