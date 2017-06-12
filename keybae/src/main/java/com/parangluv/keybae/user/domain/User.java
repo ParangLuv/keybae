@@ -40,6 +40,9 @@ public class User extends CommonDomain{
 	@OneToOne(mappedBy = "messageBoxOwner")
 	private MessageBox userMessageBox;						// 메세지 박스
 	
+		
+	private int points;										// 포인트
+	
 	
 	@Column(nullable = false, length = 60)
 	private String email; 									// login시 아이디
@@ -49,8 +52,9 @@ public class User extends CommonDomain{
 	@JsonIgnore
 	@Column(nullable = false, length = 20)
 	private String password;								// 패스워드
-	@Transient
-	private String repeatPassword;							// 가입/정보변경시 Transient
+	
+//	@Transient
+//	private String repeatPassword;							// 가입/정보변경시 Transient
 	
 
 
