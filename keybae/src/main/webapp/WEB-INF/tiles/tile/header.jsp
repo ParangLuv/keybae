@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 
-<a href="/" class="logo"><strong>키배닷컴</strong>keybae.com</a>
+<a href="<c:url value='/'/>" class="logo"><strong>키배닷컴</strong>keybae.com</a>
 <ul class="icons">
 	<li><a href="http://facebook.com" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 	<li><a href="http://twitter.com" class="icon fa-facebook"><span class="label">Facebook</span></a></li>

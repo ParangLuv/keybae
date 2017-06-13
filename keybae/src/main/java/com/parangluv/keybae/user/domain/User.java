@@ -40,7 +40,7 @@ public class User extends CommonDomain{
 	@OneToOne(mappedBy = "messageBoxOwner")
 	private MessageBox userMessageBox;						// 메세지 박스
 	
-		
+	@Column(nullable = false, columnDefinition="int(10) default 0")
 	private int points;										// 포인트
 	
 	
@@ -72,7 +72,7 @@ public class User extends CommonDomain{
 
 	@Column(nullable = false, length=20)
 	@Enumerated(EnumType.STRING)
-	private UserAuthority userAuthority = UserAuthority.USER;					// 계정 권한타입
+	private UserAuthority userAuthority = UserAuthority.USER;	// 계정 권한타입
 	
 
 	@Temporal(TemporalType.TIMESTAMP)

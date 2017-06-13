@@ -11,9 +11,13 @@ public class DebateController {
 	private static final Logger logger = LoggerFactory.getLogger(DebateController.class);
 
 	@RequestMapping("/debate")
-	public String home() {
-		System.out.println("HomeController");
+	public String debate() {
 		return "main/debate";
+	}
+	
+	@RequestMapping("/newdebate")
+	public String newDebate() {
+		return "main/newdebate";
 	}
 	
 }

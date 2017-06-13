@@ -31,58 +31,93 @@
 	<hr class="major" />
 
 	<h2>참고자료</h2>
-	<p>참고자료1</p>
-	<p>참고자료2</p>
-	
-	<hr class="major" />
-	
-	<textarea placeholder="의견을 남겨주세요" rows="3"></textarea><input type="submit" value="등록" class="special">
-	
-	<div id="reply">
-		<ul class="alt">
-			<li><span class="rwriter">작성자</span><span class="rcontent">댓글1</span><span class="rvote"><a class="button special small">찬성</a><a class="button special small">반대</a></span><span class="rtime">작성시간</span></li>
-
-		</ul>
-	</div>
-	<ul class="pagination">
-		<li>
-			<span class="button disabled">이전</span>
-		</li>
-		<li>
-			<a href="#" class="page active">1</a>
-		</li>
-		<li>
-			<a href="#" class="page">2</a>
-		</li>
-		<li>
-			<a href="#" class="page">3</a>
-		</li>
-		<li>
-			<a href="#" class="page">4</a>
-		</li>
-		<li>
-			<a href="#" class="page">5</a>
-		</li>
-		<li>
-			<a href="#" class="page">6</a>
-		</li>
-		<li>
-			<a href="#" class="page">7</a>
-		</li>
-		<li>
-			<a href="#" class="page">8</a>
-		</li>
-		<li>
-			<a href="#" class="page">9</a>
-		</li>
-		<li>
-			<a href="#" class="page">10</a>
-		</li>
-
-		<li>
-			<a href="#" class="button">다음</a>
-		</li>
+	<ul>
+		<li>참고자료1</li>
+		<li>참고자료2</li>
+		<li>참고자료3</li>
+		<li>참고자료4</li>
+		<li>참고자료5</li>
 	</ul>
 	
+	
+
+	<hr class="major" style="margin-bottom:10px;"/>
+	<h2 style="margin-bottom:10px;">찬반현황</h2>
+	<h3 style="text-align: center; margin: 10px 0">토론종료까지 <span>11:30:11</span> 남았습니다.</h3>
+	<p style="text-align: center; margin-bottom: 5px;">
+		<a>찬성</a><span> 111</span> : <span>222 </span><a>반대</a> 
+	</p>
+	<p style="margin-bottom: 0px;"><progress value="111" max="333" style="width:100%; background-color: red; margin-bottom: 3px;"><strong>Vote : 111</strong></progress>
+	
+	<hr class="major" style="margin:15px 0;" />
+	<h2 style="margin:15px 0;">댓글의견</h2>
+	
+
+
+
+	<!-- 댓글목록 -->
+	<div id="reply">
+		<ul class="alt">
+			<li>
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span><a>답글쓰기</a>
+			</li>
+			<li style="margin-left:60px;">
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span>
+			</li>
+			<li style="margin-left:60px;">
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span>
+			</li>
+			<li style="margin-left:60px;">
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span>
+			</li>
+			<li style="margin-left:60px;">
+				<input type="text" placeholder="의견을 남겨주세요.">
+			</li>
+			<li style="margin-left:60px;">
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span>
+			</li>
+			<li>
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span>
+			</li>
+
+			<li>
+				<span class="rwriter" style="font-weight: bold; margin-right: 10px;">작성자</span><span class="rcontent" style="margin-right: 5px;">댓글1</span>
+				<span class="rvote" style="margin-right:3px;"><a style="padding:0 3px;">찬성</a>10<a style="padding:0 3px;">반대</a>11</span><span class="rtime" style="font-size:10px;">2017.06.13|12:11:10</span>
+			</li>
+			<li style="margin-left:60px;">
+				<input type="text" placeholder="의견을 남겨주세요.">
+			</li>
+			<li>
+				<input type="text" placeholder="의견을 남겨주세요.">
+			</li>			
+		</ul>
+	</div>
+	
+	
+	
+	
+	<!-- 페이징 -->
+	<ul class="pagination" style="text-align:center;">
+		<li><span class="button disabled">이전</span></li>
+		<li><a href="#" class="page active">1</a></li>
+		<li><a href="#" class="page">2</a></li>
+		<li><a href="#" class="page">3</a></li>
+		<li><a href="#" class="page">4</a></li>
+		<li><a href="#" class="page">5</a></li>
+		<li><a href="#" class="page">6</a></li>
+		<li><a href="#" class="page">7</a></li>
+		<li><a href="#" class="page">8</a></li>
+		<li><a href="#" class="page">9</a></li>
+		<li><a href="#" class="page">10</a></li>
+
+		<li><a href="#" class="button">다음</a></li>
+	</ul>
+
 
 </section>
