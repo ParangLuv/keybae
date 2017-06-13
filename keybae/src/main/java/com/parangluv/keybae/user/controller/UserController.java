@@ -12,14 +12,22 @@ public class UserController {
 
 	@RequestMapping("/login")
 	public String login() {
-		System.out.println("loginController");
 		return "main/login";
 	}
 	
 	@RequestMapping("/join")
 	public String join() {
-		System.out.println("joinController");
 		return "main/join";
+	}
+	
+	@RequestMapping("/pointshop")
+	public String pshop() {
+		return "main/pshop";
+	}
+	
+	@RequestMapping("/pointshop/goods")
+	public String pshopgoods() {
+		return "main/pshopgoods";
 	}
 	
 	

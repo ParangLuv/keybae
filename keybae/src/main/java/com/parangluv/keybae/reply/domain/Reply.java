@@ -23,9 +23,6 @@ public class Reply extends CommonDomain{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long replyId;
-	
-	@Column(nullable=false)
-	private Long replyNo;
 
 	@ManyToOne
 	@JoinColumn(name="replyWriter", foreignKey = @ForeignKey(name="replyWriter"), nullable = false)

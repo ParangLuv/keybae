@@ -34,12 +34,12 @@
 		
 		<ul>
 			<li><a href="<c:url value='/'/>">홈으로</a></li>
-			<li><a href="<c:url value='/notice'/>">공지사항</a></li>
+			<li><a href="<c:url value='/board/notice'/>">공지사항</a></li>
 			<li><span class="opener">커뮤니티</span>
 				<ul>
-					<li><a href="<c:url value='board/free'/>">자유게시판</a></li>
-					<li><a href="<c:url value='board/news'/>">뉴스게시판</a></li>
-					<li><a href="<c:url value='board/debate'/>">토론게시판</a></li>
+					<li><a href="<c:url value='/board/free'/>">자유게시판</a></li>
+					<li><a href="<c:url value='/board/news'/>">뉴스게시판</a></li>
+					<li><a href="<c:url value='/board/debate'/>">토론게시판</a></li>
 				</ul></li>
 			<li><a href="<c:url value='/pointshop'/>">포인트샵</a></li>
 		</ul>

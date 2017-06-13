@@ -33,6 +33,7 @@
 		margin: 0 3px;
 		width:100%;
 	}
+		
 </style>
 </head>
 <body>
