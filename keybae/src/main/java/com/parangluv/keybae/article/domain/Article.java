@@ -62,7 +62,7 @@ public class Article extends CommonDomain{
 	private String content;									// 내용
 	
 	@Column(nullable = false, length=20)
-	private Category category;								// 카테고리
+	private ACategory category;								// 카테고리
 	
     @Column(name = "ip", nullable = false, length = 255)
     private String ip;										// 게시글 IP정보

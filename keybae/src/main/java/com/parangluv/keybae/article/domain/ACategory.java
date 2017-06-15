@@ -1,6 +1,6 @@
 package com.parangluv.keybae.article.domain;
 
-public enum Category {
+public enum ACategory {
 	NOTICE("공지사항"),
 	QNA("문의"),
 	FREE("자유"),
@@ -10,7 +10,7 @@ public enum Category {
 	
 	private String category;
 	
-	Category(String category) {
+	ACategory(String category) {
 		this.category = category;
 	}
 }

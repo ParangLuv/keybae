@@ -6,6 +6,7 @@
 <section>
 	<header class="main">
 		<h1>토론제목</h1>
+		<p style="text-align: right;">카테고리 : <span>Category</span></p>
 	</header>
 	
 	<hr class="major" />
