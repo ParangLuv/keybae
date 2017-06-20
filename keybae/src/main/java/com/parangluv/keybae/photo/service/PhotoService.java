@@ -28,6 +28,6 @@ public class PhotoService {
 		photoRepository.delete(photo);
 	}
 	// End of Repository ~ Basic CRUD
-	
+
 	
 }

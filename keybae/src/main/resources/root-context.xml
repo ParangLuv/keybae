@@ -49,7 +49,7 @@
 		</bean>
 
 		<bean class="java.lang.String" id="uploadPath">
-			<constructor-arg value="/resources/upload" />
+			<constructor-arg value="C:\Users\DGIT\keybae\keybae\src\main\webapp\resources\upload" />
 		</bean>
 		
 		<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">

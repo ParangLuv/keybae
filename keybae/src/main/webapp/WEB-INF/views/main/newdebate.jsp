@@ -3,7 +3,7 @@
 <!-- Banner -->
 <!-- Content -->
 <section>
-	<form method="post" action="<c:url value='/debate/new/'/>">
+	<form method="post" action="<c:url value='/debate/new/'/>" enctype="multipart/form-data">
 		<header class="main">
 			<h2>토론제목</h2>
 			<input type="text" placeholder="토론제목" name="title">

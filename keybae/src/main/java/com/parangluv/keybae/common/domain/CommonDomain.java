@@ -25,7 +25,7 @@ public class CommonDomain {
 	private boolean isDeleted;							// 논리삭제 여부
 	
 	@Temporal(TemporalType.TIMESTAMP)
-	@Column(nullable = false, columnDefinition="TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
+	@Column(nullable = true, columnDefinition="TIMESTAMP DEFAULT 0")
 	private Date delDate;								// 삭제시간
 	
 	@Column

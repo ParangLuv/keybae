@@ -11,11 +11,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
 import com.mysql.jdbc.Blob;
 import com.parangluv.keybae.common.domain.CommonDomain;
+import com.parangluv.keybae.photo.domain.Photo;
 import com.parangluv.keybae.reply.domain.Reply;
 
 import lombok.Data;
@@ -25,7 +27,7 @@ import lombok.Data;
 public class Debate extends CommonDomain{
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long debateId;
 	
 	@Column(nullable=false)
@@ -34,9 +36,8 @@ public class Debate extends CommonDomain{
 	@Column(nullable = false, length=20)
 	private DCategory category;										// 카테고리
 	
-	@Lob
-	@Column(nullable=true)
-	private Blob repImage;											// 대표이미지
+	@OneToOne
+	private Photo repImage;											// 대표이미지
 		
 	@Column(nullable = false, length=80) 
 	@NotEmpty
